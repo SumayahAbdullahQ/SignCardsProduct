@@ -14,6 +14,19 @@
 		58413CF82CB2CECE00D2ADF1 /* SignCardsProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413CF72CB2CECE00D2ADF1 /* SignCardsProductTests.swift */; };
 		58413D022CB2CECE00D2ADF1 /* SignCardsProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D012CB2CECE00D2ADF1 /* SignCardsProductUITests.swift */; };
 		58413D042CB2CECE00D2ADF1 /* SignCardsProductUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D032CB2CECE00D2ADF1 /* SignCardsProductUITestsLaunchTests.swift */; };
+		58413D112CB2CF4000D2ADF1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D102CB2CF4000D2ADF1 /* HomeScreen.swift */; };
+		58413D132CB2CF7700D2ADF1 /* MyCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D122CB2CF7700D2ADF1 /* MyCardScreen.swift */; };
+		58413D152CB2CFA000D2ADF1 /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D142CB2CFA000D2ADF1 /* AddCardScreen.swift */; };
+		58413D172CB2CFCD00D2ADF1 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D162CB2CFCD00D2ADF1 /* CardDetailView.swift */; };
+		58413D192CB2D01800D2ADF1 /* MyCardScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D182CB2D01800D2ADF1 /* MyCardScreen2.swift */; };
+		58413D1B2CB2D03F00D2ADF1 /* AddCardScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D1A2CB2D03F00D2ADF1 /* AddCardScreen2.swift */; };
+		58413D1D2CB2D06C00D2ADF1 /* CardDetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D1C2CB2D06C00D2ADF1 /* CardDetailView2.swift */; };
+		58413D1F2CB2D08E00D2ADF1 /* MyCardScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D1E2CB2D08E00D2ADF1 /* MyCardScreen3.swift */; };
+		58413D212CB2D0BB00D2ADF1 /* AddCardScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D202CB2D0BB00D2ADF1 /* AddCardScreen3.swift */; };
+		58413D232CB2D0D900D2ADF1 /* CardDetailView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D222CB2D0D900D2ADF1 /* CardDetailView3.swift */; };
+		58413D252CB2D0FC00D2ADF1 /* MyCardScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D242CB2D0FC00D2ADF1 /* MyCardScreen4.swift */; };
+		58413D272CB2D11B00D2ADF1 /* AddCardScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D262CB2D11B00D2ADF1 /* AddCardScreen4.swift */; };
+		58413D292CB2D16700D2ADF1 /* CardDetailView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D282CB2D16700D2ADF1 /* CardDetailView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		58413CFD2CB2CECE00D2ADF1 /* SignCardsProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignCardsProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58413D012CB2CECE00D2ADF1 /* SignCardsProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCardsProductUITests.swift; sourceTree = "<group>"; };
 		58413D032CB2CECE00D2ADF1 /* SignCardsProductUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCardsProductUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58413D102CB2CF4000D2ADF1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		58413D122CB2CF7700D2ADF1 /* MyCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardScreen.swift; sourceTree = "<group>"; };
+		58413D142CB2CFA000D2ADF1 /* AddCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen.swift; sourceTree = "<group>"; };
+		58413D162CB2CFCD00D2ADF1 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		58413D182CB2D01800D2ADF1 /* MyCardScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardScreen2.swift; sourceTree = "<group>"; };
+		58413D1A2CB2D03F00D2ADF1 /* AddCardScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen2.swift; sourceTree = "<group>"; };
+		58413D1C2CB2D06C00D2ADF1 /* CardDetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView2.swift; sourceTree = "<group>"; };
+		58413D1E2CB2D08E00D2ADF1 /* MyCardScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardScreen3.swift; sourceTree = "<group>"; };
+		58413D202CB2D0BB00D2ADF1 /* AddCardScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen3.swift; sourceTree = "<group>"; };
+		58413D222CB2D0D900D2ADF1 /* CardDetailView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView3.swift; sourceTree = "<group>"; };
+		58413D242CB2D0FC00D2ADF1 /* MyCardScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardScreen4.swift; sourceTree = "<group>"; };
+		58413D262CB2D11B00D2ADF1 /* AddCardScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen4.swift; sourceTree = "<group>"; };
+		58413D282CB2D16700D2ADF1 /* CardDetailView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +121,19 @@
 			isa = PBXGroup;
 			children = (
 				58413CE62CB2CECD00D2ADF1 /* SignCardsProductApp.swift */,
+				58413D102CB2CF4000D2ADF1 /* HomeScreen.swift */,
+				58413D122CB2CF7700D2ADF1 /* MyCardScreen.swift */,
+				58413D142CB2CFA000D2ADF1 /* AddCardScreen.swift */,
+				58413D162CB2CFCD00D2ADF1 /* CardDetailView.swift */,
+				58413D182CB2D01800D2ADF1 /* MyCardScreen2.swift */,
+				58413D1A2CB2D03F00D2ADF1 /* AddCardScreen2.swift */,
+				58413D1C2CB2D06C00D2ADF1 /* CardDetailView2.swift */,
+				58413D1E2CB2D08E00D2ADF1 /* MyCardScreen3.swift */,
+				58413D202CB2D0BB00D2ADF1 /* AddCardScreen3.swift */,
+				58413D222CB2D0D900D2ADF1 /* CardDetailView3.swift */,
+				58413D242CB2D0FC00D2ADF1 /* MyCardScreen4.swift */,
+				58413D262CB2D11B00D2ADF1 /* AddCardScreen4.swift */,
+				58413D282CB2D16700D2ADF1 /* CardDetailView4.swift */,
 				58413CE82CB2CECD00D2ADF1 /* ContentView.swift */,
 				58413CEA2CB2CECE00D2ADF1 /* Assets.xcassets */,
 				58413CEC2CB2CECE00D2ADF1 /* Preview Content */,
@@ -257,8 +296,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58413D212CB2D0BB00D2ADF1 /* AddCardScreen3.swift in Sources */,
+				58413D192CB2D01800D2ADF1 /* MyCardScreen2.swift in Sources */,
+				58413D1F2CB2D08E00D2ADF1 /* MyCardScreen3.swift in Sources */,
+				58413D232CB2D0D900D2ADF1 /* CardDetailView3.swift in Sources */,
+				58413D1D2CB2D06C00D2ADF1 /* CardDetailView2.swift in Sources */,
 				58413CE92CB2CECD00D2ADF1 /* ContentView.swift in Sources */,
+				58413D152CB2CFA000D2ADF1 /* AddCardScreen.swift in Sources */,
+				58413D252CB2D0FC00D2ADF1 /* MyCardScreen4.swift in Sources */,
+				58413D272CB2D11B00D2ADF1 /* AddCardScreen4.swift in Sources */,
+				58413D132CB2CF7700D2ADF1 /* MyCardScreen.swift in Sources */,
+				58413D1B2CB2D03F00D2ADF1 /* AddCardScreen2.swift in Sources */,
+				58413D172CB2CFCD00D2ADF1 /* CardDetailView.swift in Sources */,
+				58413D292CB2D16700D2ADF1 /* CardDetailView4.swift in Sources */,
 				58413CE72CB2CECD00D2ADF1 /* SignCardsProductApp.swift in Sources */,
+				58413D112CB2CF4000D2ADF1 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
