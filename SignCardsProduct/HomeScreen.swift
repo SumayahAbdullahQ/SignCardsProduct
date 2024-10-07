@@ -9,6 +9,8 @@ import SwiftUI
 struct HomeScreen: View {
     @EnvironmentObject var cardStore: CardStore // Access the shared CardStore
     @EnvironmentObject var cardStore2: CardStore2 // Access the shared CardStore
+    @EnvironmentObject var cardStore3: CardStore3 // Access the shared CardStore
+    @EnvironmentObject var cardStore4: CardStore4 // Access the shared CardStore
 
     var body: some View {
         NavigationView {
@@ -68,4 +70,6 @@ struct HomeScreen: View {
         .environmentObject(CardStore())
     // Provide a CardStore for preview
         .environmentObject(CardStore2())
+        .environmentObject(CardStore3())
+        .environmentObject(CardStore4())
 }

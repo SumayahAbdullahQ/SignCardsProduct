@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MyCardScreen2: View {
     @EnvironmentObject var cardStore2: CardStore2
+    @State private var showingAddCardScreen = false // State variable to control sheet presentation
 
     var body: some View {
             VStack {
@@ -41,8 +42,10 @@ struct MyCardScreen2: View {
 
                 Spacer()
 
-                // Button to go to AddCardScreen
-                NavigationLink(destination: AddCardScreen2()) {
+                // Button to present AddCardScreen as a sheet
+                Button(action: {
+                    showingAddCardScreen.toggle() // Toggle the state to show the sheet
+                }) {
                     Text("Add New Card")
                         .padding()
                         .background(Color.blue)
@@ -50,7 +53,12 @@ struct MyCardScreen2: View {
                         .cornerRadius(10)
                 }
                 .padding()
+                .sheet(isPresented: $showingAddCardScreen) {
+                    AddCardScreen2() // Present the AddCardScreen as a sheet
+                        .environmentObject(cardStore2) // Pass the environment object
+                }
             }
+            .navigationBarTitleDisplayMode(.inline) // Set title display mode to inline
         }
 }
     

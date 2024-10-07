@@ -41,6 +41,7 @@ struct AddCardScreen3: View {
                     presentationMode.wrappedValue.dismiss() // Cancel button action
                 } label: {
                     Text("Cancel")
+                        .padding(.vertical)
                         .padding(.horizontal)
                 }
 
@@ -53,6 +54,7 @@ struct AddCardScreen3: View {
                     presentationMode.wrappedValue.dismiss() // Go back to the previous screen (MyCardScreen)
                 } label: {
                     Text("Done")
+                        .padding(.vertical)
                         .padding(.horizontal)
                 }
                 .disabled(cardDescription.isEmpty || cardColor == .white) // Disable if no description or color
