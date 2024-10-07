@@ -70,6 +70,9 @@ struct HomeScreen: View {
         .environmentObject(CardStore())
     // Provide a CardStore for preview
         .environmentObject(CardStore2())
+    // Provide a CardStore2 for preview
         .environmentObject(CardStore3())
+    // Provide a CardStore3 for preview
         .environmentObject(CardStore4())
+    // Provide a CardStore4 for preview
 }
