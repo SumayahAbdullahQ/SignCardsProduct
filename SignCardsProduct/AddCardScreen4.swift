@@ -110,10 +110,10 @@ struct AddCardScreen4: View {
                         // TextEditor for card description
                         TextEditor(text: $cardDescription)
                             .multilineTextAlignment(.center)
+                            .scrollContentBackground(.hidden)
                             .frame(width: 260,height: 90) // Set a larger height for the description
                             .padding(5)
-                            .background(Color.white)
-                            .cornerRadius(5)
+                            .background(Color.white.opacity(0.8)).cornerRadius(5)
                             .shadow(radius: 1)
                             .font(.system(size: 16)) // Customize font size
                             .lineLimit(4) // Allow up to 4 lines
