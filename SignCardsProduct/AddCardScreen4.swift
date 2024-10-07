@@ -88,7 +88,7 @@ struct AddCardScreen4: View {
                             .shadow(radius: 1)
                             .font(.system(size: 16)) // Customize font size
                             .disableAutocorrection(true) // Prevent autocorrection for emojis
-                            .keyboardType(.asciiCapable) // Restrict to ASCII (for emojis)
+                            .keyboardType(.default) // Restrict to ASCII (for emojis)
 //                        // TextEditor for emojis
 //                        TextEditor(text: $emojiInput)
 //                            .multilineTextAlignment(.center)
